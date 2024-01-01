@@ -1,0 +1,14 @@
+.searchbar {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar form {
+    width: 30rem;
+}
+
+.searchbar form input {
+    width: 100%;
+}
+
+

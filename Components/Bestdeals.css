@@ -1,0 +1,121 @@
+
+.dealsheading {
+    background: linear-gradient(to right, rgb(223, 42, 96), white, rgb(226, 23, 158));
+    display: flex;
+    justify-content: center;
+}
+
+
+.dealsheading-container {
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+
+.dealsheading h1 {
+    margin: 0;
+    text-align: center;
+    color: black
+}
+
+
+.eleccards div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.eleccards div img{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+}
+
+.card-body {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    cursor: pointer;
+  }
+  
+  .card-text,
+  .card-price {
+    margin-bottom: 5px; 
+    font-weight: 600;
+  }
+
+  
+  .price {
+    display: flex;
+    padding: 0 20px;
+  }
+  
+  .card-price {
+    margin-right: auto;
+    color: green;
+    
+  }
+  
+  .card-oldprice {
+    margin-left: auto;
+    text-decoration: line-through;
+    color: lightslategray;
+  }
+  
+  
+  /* --------------------------Groceries-------------------------------------------- */
+
+  .dealsheading2 {
+    background: linear-gradient(to right, rgb(245, 241, 21), white, rgb(82, 228, 25));
+    display: flex;
+    justify-content: center;
+}
+
+
+.dealsheading2-container {
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+
+.dealsheading2 h1 {
+    margin: 0;
+    text-align: center;
+    color: black
+}
+
+
+/* --------------------------------Fashion------------------------------------------- */
+
+
+.dealsheading3 {
+    background: linear-gradient(to right, rgb(21, 163, 245), white, rgb(181, 25, 228));
+    display: flex;
+    justify-content: center;
+}
+
+
+.dealsheading3-container {
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+
+.dealsheading3 h1 {
+    margin: 0;
+    text-align: center;
+    color: black
+}
+  
+.card-price-fashion,
+.card-oldprice-fashion {
+    margin-bottom: 5px; /* or any desired value */
+}
+
