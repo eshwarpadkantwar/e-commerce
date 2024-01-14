@@ -1,0 +1,18 @@
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px; /* Adjust the margin as needed for spacing */
+  }
+
+.sorting{
+    background: #ddd;
+}
+
+button{
+    height: 25px;
+    background: whitesmoke
+}
