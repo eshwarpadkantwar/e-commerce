@@ -1,0 +1,16 @@
+# Global settings
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# Redirects (optional)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers (optional)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
