@@ -1,9 +1,17 @@
 import React from "react";
-import "./Navbar.css"
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import Searchbar from "./Searchbar";
+import "./Navbar.css";
 
 function Navbar() {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
 
     return (
         <div>
@@ -14,49 +22,32 @@ function Navbar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <Searchbar/>
+                        <Searchbar />
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 mx-3" id="navbarlist">
                             <li className="nav-item me-3">
-                                <NavLink to="/" className="text-dark text-decoration-none">Home</NavLink>
+                                <NavLink to="/" className="text-dark text-decoration-none" onClick={scrollToTop}>Home</NavLink>
                             </li>
                             <li className="nav-item me-3">
-                                <NavLink to="/products" className="text-dark text-decoration-none">Products</NavLink>
+                                <NavLink to="/products" className="text-dark text-decoration-none" onClick={scrollToTop}>Products</NavLink>
                             </li>
-                            <li className="nav-item me-3">
+                             {/* <li className="nav-item me-3">
                                 <NavLink to="/accessories" className="text-dark text-decoration-none">Accessories</NavLink>
-                            </li>
+                            </li> */}
                             <li className="nav-item me-3">
                                 <NavLink to="/about" className="text-dark text-decoration-none">About</NavLink>
                             </li>
                             <li className="nav-item me-3">
                                 <NavLink to="/faq" className="text-dark text-decoration-none">FAQ</NavLink>
                             </li>
-                        </ul>
 
+                            
+                            <li><a href="#" onClick={scrollToTop}><FontAwesomeIcon icon={faShoppingCart} /></a></li>
+                        </ul>
                     </div>
                 </div>
             </nav>
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
-
-
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;

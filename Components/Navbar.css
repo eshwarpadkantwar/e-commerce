@@ -3,9 +3,13 @@
     top: 0;
     width: 100%;
     z-index: 1000; 
+    /* background-color: #FFFF66 !important; */
+    background-color: #FFE6A8 !important;
   }
   
-
+  html {
+    scroll-behavior: smooth;
+}
 
 #navbarlist li{
     text-decoration: none;

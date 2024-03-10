@@ -1,0 +1,24 @@
+.container{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.faqs{
+    margin-top: 2rem;
+}
+
+.accordion-button{
+    font-size: 23px;
+    font-weight: 700;
+    padding: 40px;
+}
+
+.accordion-body{
+    font-size: 20px;
+}
+

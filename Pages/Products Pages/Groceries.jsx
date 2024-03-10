@@ -1,12 +1,15 @@
 import React from "react";
-import Groceriescontent from "../../Components/Groceriescontent";
+
+import Groceriesitems from "../../Components/ProductItems/Groceriesitems";
+
 
 function Groceries(){
 
     return(
         <div>
-            <Groceriescontent/>
-
+           
+            <Groceriesitems/>
+            
         </div>
     )
 }

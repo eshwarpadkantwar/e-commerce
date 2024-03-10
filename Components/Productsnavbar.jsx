@@ -1,7 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Searchbar from "./Searchbar";
+// import Searchbar from "./Searchbar";
 import "./Productsnavbar.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 function Productsnavbar() {
   return (
@@ -25,7 +27,7 @@ function Productsnavbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <Searchbar />
+            {/* <Searchbar /> */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 mx-3" id="navbarlist">
               <li className="nav-item me-3">
                 <NavLink to="/products/electronics" className="text-dark text-decoration-none">
@@ -42,6 +44,7 @@ function Productsnavbar() {
                   Fashion
                 </NavLink>
               </li>
+              <li><a href="#"><FontAwesomeIcon icon={faShoppingCart} /></a></li>
             </ul>
           </div>
         </div>

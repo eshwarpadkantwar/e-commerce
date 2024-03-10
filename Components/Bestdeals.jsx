@@ -209,6 +209,7 @@ function Bestdeals() {
 
                 <div className="eleccards mt-5 row">
                     <div className="one">
+                        
                         <div className="card" style={{ width: "18rem", height:"auto" }}>
                             <img src={Casuallinedjacket} className="card-img-top" alt="Casual Lined Jacket" />
                             <div className="card-body">
@@ -225,7 +226,7 @@ function Bestdeals() {
                                 </div>
                             </div>
                         </div>
-
+                        
 
                         <div className="card" style={{ width: "18rem", height:"auto" }}>
                             <img src={casiowatch} className="card-img-top" alt="Casio Vintage Digital Watch" />

@@ -1,0 +1,13 @@
+
+.cartimg{
+    width: 60px;
+    height: 60px;
+}
+
+h2,h3{
+    display: flex;
+}
+
+.removebtn{
+    width: auto;
+}

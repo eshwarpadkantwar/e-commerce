@@ -1,11 +1,16 @@
-import React from "react";
-import Electronicsitems from "../../Components/Electronicsitems";
-import Navbar from "../../Components/Navbar";
+import React, { useState } from "react";
+
+import Electronicsitems from "../../Components/ProductItems/Electronicsitems";
+
 
 function Electronics() {
+
+  const [cart, setCart] = useState([]);
+  const [showcart, setshowcart] = useState(false);
+
   return (
     <div>
-      <Navbar/>
+     
       <Electronicsitems />
       
     </div>
