@@ -199,7 +199,7 @@ function Bestdeals() {
 
                 {/* -------------------------Fashion------------------------------- */}
 
-                // ... (previous code remains the same) ...
+                
 
                 <div className="dealsheading3 mt-5">
                     <div className="dealsheading3-container">
